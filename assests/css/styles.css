@@ -15,6 +15,27 @@ h1{
 	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
 }
 
+.fa-plus{
+	float:right;
+}
+
+span{
+	width: 0;
+	height: 40px;
+	background: red;
+	color: white;
+	margin-right: 20px;
+	text-align: center;
+	display: inline-block;
+	transition: 0.2s linear;
+	opacity:0;
+}
+
+li:hover span{
+	width: 40px;
+	opacity: 1;
+}
+
 li{
 	background: #fff;
 	height: 40px;
@@ -46,6 +67,7 @@ input{
 	color: #2980b9;
 	padding: 13px 13px 13px 20px;
 	box-sizing: border-box;
+	border: 3px solid rgba(0, 0, 0, 0);
 }
 
 input:focus{
